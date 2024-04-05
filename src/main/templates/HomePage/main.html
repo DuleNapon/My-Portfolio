@@ -1,0 +1,185 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block 'body' %}
+<header class="d-flex flex-wrap justify-content-center border-bottom fixed-top bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg "> 
+      <div class="container-fluid">
+          <button class="navbar-toggler navbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="logo-div">
+              <a href="/" class="navbar-brand">
+              <img src="{% static "images/Slika.jpg" %}"  width="50" height="50" id="logo-img">
+              <b>Dusan Vlajkovac</b>
+              </a>
+          </div>        
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#About-me">About me</a>
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
+              <a class="nav-link" href="#Certificates">Certificates</a>
+              <a class="nav-link" href="#Testimonials">Testimonials</a>
+              <a class="nav-link" href="#Contact">Contact</a>
+              </div>
+          </div>
+      </div>
+          
+  </nav>   
+</header>
+
+<div class="container" style="height: 56px;"></div>
+
+<section class="container my-5" id="Hero-section">
+  <div class="p-5 text-center bg-body-tertiary rounded-3">
+    <h2 class="text-body-emphasis">Dusan Vlajkovac</h2>
+    <p class="col-lg-8 mx-auto fs-5 text-muted">
+      Hi! Welcome to Dusan Vlajkovac's homepage. I am a mechanical engineer with knowledge in Quality Management, Software Automation and Data Analysis.
+    </p>
+    <div class="d-inline-flex gap-2 mb-5">
+      <a class="btn btn-primary rounded-pill px-3" type="button" href="#About-me">Visit</a>
+      <a class="btn btn-secondary rounded-pill px-3" type="button" href="#Contact">Contact</a>
+    </div>
+    <div id="social">
+      <ul class="social-links">
+         <li><a href="https://www.linkedin.com/in/dusan-vlajkovac-36249920a/" class="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+         <li><a href="https://www.instagram.com/dusanvlajkovac/" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+         <li><a href="https://github.com/DuleNapon" class="github" target="_blank"><i class="fab fa-github"></i></a></li>
+       </ul> 
+     </div>
+  </div>
+</section>
+
+<section class="container" id="About-me">
+  <h1 id="title-about-me">About me</h1>
+  <div id="grid-div">
+    <div id="img-div">
+      <img src="{% static 'images/Slika.jpg' %}" width="300" height="300" class="img-fluid" id="profile-img">
+    </div>
+    <div id="about-div">
+      <p id="text">Hi, I am Dusan,<br><br>I am a mechanical engineer with almost 5 years in the quality control, quality assurance and quality management. Interested in 3D CAD modeling (Proficient with CATIA, SolidWorks and Autodesk Inventor), interested in data analysis and writing scripts to automate task (Proficient in Python and SQL). Able to explain and present analysis and assumptions in a rational manner, able to work in a dynamic and challenging environments and to take ownership of assigned projects and see them thru to completion. I have a strong work ethic, ability to handle multiple projects at once and a yearning to never stop learning. Asking the right questions has also been a strong suit of mine so that the final product perfectly reflects what the client is seeking to receive.</p>
+    </div>
+    <!--Visible only on monitors-->
+    <div class="roadmap container d-none d-sm-none d-md-block d-lg-block">
+        <img class="img-fluid" src="{% static 'images/Roadmap H.1.jpg' %}">
+    </div>
+    <!--Visible only on small devices-->
+    <div class="roadmap container d-block d-sm-block d-md-none d-lg-none">
+        <img class="img-fluid" src="{% static 'images/Roadmap V.1.jpg' %}">
+  </div>
+</section>
+
+<section class="container" id="Portfolio">
+  <h1>Portfolio</h1>
+</section>
+
+<section class="container" id="Certificates">
+  <h1>Certificates</h1>
+</section>
+
+<section class="container" id="Testimonials">
+  <h1>Testimonials</h1>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-button" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-button" aria-label="Slide 2">
+    </button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-button" aria-label="Slide 3">
+    </button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-button" aria-label="Slide 4">
+    </button>
+  </div>
+  <div class="carousel-inner bg-body-tertiary">
+    <div class="carousel-item active">
+      <div class="carousel-div">
+        <img src="{% static 'images/Milan Dragutinovic.jpg' %}" class="img-fluid carousel-img" height="200" width="200" alt="...">
+      </div>
+      <div class="container">
+        <h3 class="text-format">Milan Dragutinovic</h3>
+        <p class="text-format" style="color:grey;" ><i>Quality Production Supervisor at Siemens Mobility</i></p>
+        <p class="text-format"><i>"Best person I ever worked with! Dusan is one of the few great people left."</i></p>
+      </div>
+      <div>
+        <br><br>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-div">
+        <img src="{% static 'images/Nikola Stamenkovic.jpg' %}" class="img-fluid carousel-img" height="200" width="200" alt="...">
+      </div>
+      <div class="container">
+        <h3 class="text-format">Nikola Stamenkovic</h3>
+        <p class="text-format" style="color:grey;" ><i>Quality Assurance Supervisor at Siemens Mobility</i></p>
+        <p class="text-format"><i>"Best person I ever worked with! Dusan is one of the few great people left."</i></p>
+      </div>
+      <div>
+        <br><br>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-div">
+        <img src="{% static 'images/Nikola Sreckovic.jpg' %}" class="img-fluid carousel-img" height="200" width="200" alt="...">
+      </div>
+      <div class="container">
+        <h3 class="text-format">Nikola Sreckovic</h3>
+        <p class="text-format" style="color:grey;" ><i>Engineering Quality Leader at SEGULA Technology</i></p>
+        <p class="text-format"><i>"Best person I ever worked with! Dusan is one of the few great people left."</i></p>
+      </div>
+      <div>
+        <br><br>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-div">
+        <img src="{% static 'images/Jovana Vlajkovac.jpg' %}" class="img-fluid carousel-img" height="200" width="200" alt="...">
+      </div>
+      <div class="container">
+        <h3 class="text-format">Jovana Vlajkovac</h3>
+        <p class="text-format" style="color:grey;" ><i>Kindergarden Teacher at AKVICA</i></p>
+        <p class="text-format"><i>"Dusan is a wounderful husband and a father, but I would never work with him, he is too much of a perfectionist."</i></p>
+      </div>
+      <div>
+        <br><br>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+<section class="container" id="Contact">
+  <h1>Contact</h1>
+  <div>
+    <p>Feel free to contact me at any time for any questions. You can contact me by email, LinkedIn or Instagram, or you can open an issue or pull request for any open source project on GitHub. </p>
+    <button class="btn btn-primary rounded-pill px-3 mail-btn" type="button">Email</button>
+    
+  </div>
+  <div class="map-div">
+    <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2395.1908561748705!2d20.90356680133548!3d44.0210120213867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sKralja%20Milana%20IV%2C%20Kragujevac%2054!5e0!3m2!1sen!2srs!4v1688029364187!5m2!1sen!2srs" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+<footer class="d-flex flex-wrap justify-content-between border-top bg-body-tertiary" id="Footer">
+  <div class=" d-flex align-items-center">
+    <span class="text-body-secondary">© {% now 'Y' %} Dusan Vlajkovac</span>
+  </div>
+
+  <div class="list-unstyled d-flex" id="social">
+    <ul class="social-links">
+      <li><a href="https://www.linkedin.com/in/dusan-vlajkovac-36249920a/" class="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href="https://www.instagram.com/dusanvlajkovac/" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://github.com/DuleNapon" class="github" target="_blank"><i class="fab fa-github"></i></a></li>
+    </ul> 
+  </div>
+</footer>
+
+
+
+{% endblock %}
