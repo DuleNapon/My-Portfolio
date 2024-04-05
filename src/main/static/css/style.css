@@ -154,7 +154,9 @@ header{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
+div {
+  border: 1px solid black;
+}
 body {
   text-align: center;
 }
