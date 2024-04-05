@@ -81,9 +81,11 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
 }
 #profile-img{
   border-radius: 20px;
+  border: 1px solid black;
 }
 #text {
   text-align: justify;
@@ -102,10 +104,10 @@ header{
 
 /* Styleing testimonials section*/
 .carousel-control-prev-icon{
-  background-image: url(src/main/static/images/chevron-left.svg);
+  background-image: url('images/Preview.png');
 }
 .carousel-control-next-icon {
-  background-image: url(main/static/images/chevron-right.svg);
+  background-image: url('images/Next.png');
 } 
 .carousel-control-next {
   justify-content: left;
@@ -123,6 +125,7 @@ header{
 }
 .carousel-img {
   border-radius: 100px;
+  border: 1px solid black;
 }
 .text-format {
   text-align: center;
@@ -139,9 +142,10 @@ header{
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  
 }
 .google-map {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .mail-btn {
   margin-bottom: 20px;
@@ -154,9 +158,9 @@ header{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-div {
+/* div {
   border: 1px solid black;
-}
+}*/
 body {
   text-align: center;
 }

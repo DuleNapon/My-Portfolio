@@ -32,6 +32,8 @@
 
 <section class="container my-5" id="Hero-section">
   <div class="p-5 text-center bg-body-tertiary rounded-3">
+    {% block 'hero' %}
+    {% endblock %}
     <h2 class="text-body-emphasis">Dusan Vlajkovac</h2>
     <p class="col-lg-8 mx-auto fs-5 text-muted">
       Hi! Welcome to Dusan Vlajkovac's homepage. I am a mechanical engineer with knowledge in Quality Management, Software Automation and Data Analysis.
@@ -144,11 +146,15 @@
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="carousel-control-prev-icon" aria-hidden="true">
+      <img src="{% static "images/Preview.png" %}" width="24" height="24">
+    </span>
     <span class="visually-hidden">Previous</span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="carousel-control-next-icon" aria-hidden="true">
+      <img src="{% static "images/Next.png" %}" width="24" height="24">
+    </span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
@@ -162,7 +168,7 @@
     
   </div>
   <div class="map-div">
-    <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2395.1908561748705!2d20.90356680133548!3d44.0210120213867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sKralja%20Milana%20IV%2C%20Kragujevac%2054!5e0!3m2!1sen!2srs!4v1688029364187!5m2!1sen!2srs" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2395.1908561748705!2d20.90356680133548!3d44.0210120213867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sKralja%20Milana%20IV%2C%20Kragujevac%2054!5e0!3m2!1sen!2srs!4v1688029364187!5m2!1sen!2srs" width="400" height="400" style="border: 1px solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </section>
 
