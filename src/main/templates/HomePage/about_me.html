@@ -1,1 +1,20 @@
-{% extends "base/base.html" %}
+{% load static %}
+
+<section class="container" id="About-me">
+    <h1 id="title-about-me">About me</h1>
+    <div id="grid-div">
+      <div id="img-div">
+        <img src="{% static 'images/Slika.jpg' %}" width="300" height="300" class="img-fluid" id="profile-img">
+      </div>
+      <div id="about-div">
+        <p id="text">Hi, I am Dusan,<br><br>I am a mechanical engineer with almost 5 years in the quality control, quality assurance and quality management. Interested in 3D CAD modeling (Proficient with CATIA, SolidWorks and Autodesk Inventor), interested in data analysis and writing scripts to automate task (Proficient in Python and SQL). Able to explain and present analysis and assumptions in a rational manner, able to work in a dynamic and challenging environments and to take ownership of assigned projects and see them thru to completion. I have a strong work ethic, ability to handle multiple projects at once and a yearning to never stop learning. Asking the right questions has also been a strong suit of mine so that the final product perfectly reflects what the client is seeking to receive.</p>
+      </div>
+      <!--Visible only on monitors-->
+      <div class="roadmap container d-none d-sm-none d-md-block d-lg-block">
+          <img class="img-fluid" src="{% static 'images/Roadmap H.1.jpg' %}">
+      </div>
+      <!--Visible only on small devices-->
+      <div class="roadmap container d-block d-sm-block d-md-none d-lg-none">
+          <img class="img-fluid" src="{% static 'images/Roadmap V.1.jpg' %}">
+    </div>
+</section>

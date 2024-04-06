@@ -1,1 +1,82 @@
-{% extends "base/base.html" %}
+{% load static %}
+
+<section class="container" id="Testimonials">
+    <h1>Testimonials</h1>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-button" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-button" aria-label="Slide 2">
+      </button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-button" aria-label="Slide 3">
+      </button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-button" aria-label="Slide 4">
+      </button>
+    </div>
+    <div class="carousel-inner bg-body-tertiary">
+      <div class="carousel-item active">
+        <div class="carousel-div">
+          <img src="{% static 'images/Milan Dragutinovic.jpg' %}" class="img-fluid carousel-img" height="200" width="200" alt="...">
+        </div>
+        <div class="container">
+          <h3 class="text-format">Milan Dragutinovic</h3>
+          <p class="text-format" style="color:grey;" ><i>Quality Production Supervisor at Siemens Mobility</i></p>
+          <p class="text-format"><i>"Best person I ever worked with! Dusan is one of the few great people left."</i></p>
+        </div>
+        <div>
+          <br><br>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-div">
+          <img src="{% static 'images/Nikola Stamenkovic.jpg' %}" class="img-fluid carousel-img" height="200" width="200" alt="...">
+        </div>
+        <div class="container">
+          <h3 class="text-format">Nikola Stamenkovic</h3>
+          <p class="text-format" style="color:grey;" ><i>Quality Assurance Supervisor at Siemens Mobility</i></p>
+          <p class="text-format"><i>"Best person I ever worked with! Dusan is one of the few great people left."</i></p>
+        </div>
+        <div>
+          <br><br>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-div">
+          <img src="{% static 'images/Nikola Sreckovic.jpg' %}" class="img-fluid carousel-img" height="200" width="200" alt="...">
+        </div>
+        <div class="container">
+          <h3 class="text-format">Nikola Sreckovic</h3>
+          <p class="text-format" style="color:grey;" ><i>Engineering Quality Leader at SEGULA Technology</i></p>
+          <p class="text-format"><i>"Best person I ever worked with! Dusan is one of the few great people left."</i></p>
+        </div>
+        <div>
+          <br><br>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-div">
+          <img src="{% static 'images/Jovana Vlajkovac.jpg' %}" class="img-fluid carousel-img" height="200" width="200" alt="...">
+        </div>
+        <div class="container">
+          <h3 class="text-format">Jovana Vlajkovac</h3>
+          <p class="text-format" style="color:grey;" ><i>Kindergarden Teacher at AKVICA</i></p>
+          <p class="text-format"><i>"Dusan is a wounderful husband and a father, but I would never work with him, he is too much of a perfectionist."</i></p>
+        </div>
+        <div>
+          <br><br>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true">
+        <img src="{% static "images/Preview.png" %}" width="24" height="24">
+      </span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true">
+        <img src="{% static "images/Next.png" %}" width="24" height="24">
+      </span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+</section>
