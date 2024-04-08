@@ -2,22 +2,26 @@
 <header class="d-flex flex-wrap justify-content-center border-bottom fixed-top bg-body-tertiary">
     <nav class="navbar navbar-expand-lg "> 
         <div class="container-fluid">
+            {% if request.path == '/' %}
             <button class="navbar-toggler navbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
+            {% endif %}
             </button>
             <div id="logo-div">
                 <a href="/" class="navbar-brand">
                 <img src="{% static "images/Slika.jpg" %}"  width="50" height="50" id="logo-img">
                 <b>Dusan Vlajkovac</b>
                 </a>
-            </div>        
+            </div>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
+                {% if request.path == '/' %}
                 <a class="nav-link active" aria-current="page" href="#About-me">About me</a>
                 <a class="nav-link" href="#Portfolio">Portfolio</a>
                 <a class="nav-link" href="#Certificates">Certificates</a>
                 <a class="nav-link" href="#Testimonials">Testimonials</a>
                 <a class="nav-link" href="#Contact">Contact</a>
+                {% endif %}
                 </div>
             </div>
         </div>

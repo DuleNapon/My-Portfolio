@@ -21,5 +21,7 @@ from main import urls as main_apps_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(main_apps_urls))
+    path('', include(main_apps_urls)),
+    path('certificates/', include(main_apps_urls))
+
 ]
