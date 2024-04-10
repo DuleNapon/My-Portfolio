@@ -1,8 +1,35 @@
 {% load static %}
 
-<section class="container" id="Certificates">
+<section class="container border-bottom" id="Certificates">
     <h1>Certificates</h1>
+    <div id="certificateCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            {% for certificate in certificates %}
+                <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div>
+                            <h2>{{ certificate.get_certificate_name }}</h2>
+                            <a href="{{ certificate.pdf_file.url }}" target="_blank">View PDF</a><br>
+                            <img src="{{ certificate.jpg_file.url }}" alt="Certificate Image" style="max-width: 500px; padding-top: 10px;">
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <a class="carousel-control-prev" href="#certificateCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+                <img src="{% static "images/Preview.png" %}" width="24" height="24">
+            </span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#certificateCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">
+                <img src="{% static "images/Next.png" %}" width="24" height="24">
+            </span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
     <div class="container" id="button-div">
-    <a class="btn btn-primary" href="/certificates">See all</a>
+        <a class="btn btn-primary" href="/certificates">See all</a>
     </div>
 </section>
