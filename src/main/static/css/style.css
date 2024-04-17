@@ -161,16 +161,11 @@ header{
   margin-bottom: 20px;
 }
 /*Styleing footer section*/
-#Footer {
-  display: flex;
-  flex-direction: row;
-  
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-/*div {
+
+
+div {
   border: 1px solid black;
-}*/
+}
 body {
   text-align: center;
 }

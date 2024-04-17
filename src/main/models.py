@@ -27,3 +27,32 @@ class Certificates(models.Model):
 
     def __str__(self):
         return self.get_certificate_name()
+
+class Projects(models.Model):
+    PROJECT_TYPES = [
+        ('Agile', 'Agile'),
+        ('Waterfall', 'Waterfall'),
+        ('Learning', 'Learning'),
+        ('Other', 'Other'),
+    ]
+
+    INDUSTRIES = [
+        ('Automotive', 'Automotive'),
+        ('IT', 'IT'),
+        ('Rolling stock', 'Rolling stock'),
+        ('Education', 'Education'),
+        ('Entertainment', 'Entertainment'),
+        ('Other', 'Other'),
+    ]
+    
+
+    title = models.CharField(max_length=100)
+    description = models.TextField()
+    company = models.CharField(max_length=100, default='N/A')
+    image = models.ImageField(upload_to='media/project_images/')
+    project_type = models.CharField(max_length=20, choices=PROJECT_TYPES, default='Other')
+    industry = models.CharField(max_length=30, choices=INDUSTRIES, default='Other')
+    link = models.URLField()
+
+    def __str__(self):
+        return self.title

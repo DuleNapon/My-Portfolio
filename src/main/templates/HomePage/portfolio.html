@@ -2,4 +2,26 @@
 
 <section class="container border-bottom" id="Portfolio">
     <h1>Portfolio</h1>
+
+    <div class="row row-cols-1 row-cols-md-3" style="padding-bottom: 40px;">
+        {% for project in projects %}
+        <div class="col" style="padding-top: 45px; padding-bottom: 20px;">
+            <div class="card h-100">
+                <img src="{{ project.image.url }}" class="card-img-top" alt="..." style="">
+                <div class="card-body">
+                <h5 class="card-title"><strong>Project: </strong>{{ project.title }}</h5>
+                <p class="card-text"><strong>Industry: </strong>{{ project.industry }}</p>
+                <p class="card-text"><strong>Project type: </strong>{{ project.project_type }}</p>
+                <p class="card-text"><strong>Company: </strong>{{ project.company }}</p>
+                </div>
+            </div>
+            <div class="container border-bottom" id="button-div" style="padding-bottom: 22.1px;">
+                <a class="btn btn-primary" href="{% url 'project_details' project.id %}">See Project</a>
+            </div>
+        </div>
+
+        {% endfor %}
+    </div>
+
+
 </section>
