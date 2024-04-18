@@ -56,3 +56,14 @@ class Projects(models.Model):
 
     def __str__(self):
         return self.title
+
+class Testimonials(models.Model):
+    profile_picture = models.ImageField(upload_to='media/testimonials/', null=True, blank=True)
+    full_name = models.CharField(max_length=100)
+    current_title = models.CharField(max_length=100)
+    company = models.CharField(max_length=100)
+    contact = models.URLField(null=True, blank=True)
+    testimonial = models.TextField()
+
+    def __str__(self):
+        return self.full_name

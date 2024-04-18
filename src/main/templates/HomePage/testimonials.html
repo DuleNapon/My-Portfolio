@@ -1,8 +1,51 @@
 {% load static %}
 
 <section class="container" id="Testimonials">
-    <h1>Testimonials</h1>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <h1>Testimonials</h1>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      {% for testimonial in testimonials %}
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ forloop.counter0 }}" class="{% if forloop.first %}active{% endif %} carousel-button" aria-current="{% if forloop.first %}true{% endif %}" aria-label="Slide {{ forloop.counter }}">
+      </button>
+      {% endfor %}
+    </div>
+  
+    <div class="carousel-inner bg-body-tertiary" style="height: 500px;">
+      {% for testimonial in testimonials %}
+      <div class="carousel-item {% if forloop.first %}active{% endif %}">
+        <div class="carousel-div">
+            <img src="{{ testimonial.profile_picture.url }}" class="img-fluid carousel-img shadow-lg" height="200" width="200" alt="Profile Picture">
+        </div>
+        <div class="container">
+          <h3 class="text-format">{{ testimonial.full_name }}</h3>
+          <p class="text-format" style="color:grey;"><i>{{ testimonial.current_title }} at {{ testimonial.company }}</i></p>
+          <p class="text-format"><i>{{ testimonial.testimonial }}</i></p>
+          {% if testimonial.contact %}
+          <p class="text-format"><a href="{{ testimonial.contact }}" target="_blank">LinkedIn Profile</a></p>
+          {% endif %}
+        </div>
+        <div>
+            <br><br>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true">
+            <img src="{% static "images/Preview.png" %}" width="24" height="24">
+        </span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true">
+            <img src="{% static "images/Next.png" %}" width="24" height="24">
+        </span>
+        <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <!--<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-button" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-button" aria-label="Slide 2">
@@ -84,8 +127,8 @@
           <br><br>
         </div>
       </div>
-    </div>
-    
+    </div> 
+
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true">
         <img src="{% static "images/Preview.png" %}" width="24" height="24">
@@ -98,5 +141,7 @@
       </span>
       <span class="visually-hidden">Next</span>
     </button>
-    </div>
+    </div>-->
+
+
 </section>
