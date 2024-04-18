@@ -2,26 +2,7 @@
 {% load static %}
 
 {% block content %}
-<!--<section class="border-bottom">
-    <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6 ">
-                <img src="{{ project.image.url }}" class="d-block mx-lg-auto img-fluid rounded-3" alt="{{ project.title }} Image" width="700" height="500" loading="lazy">
-            </div>
-            <div class="col-lg-6 ">
-                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">{{ project.title }}</h1>
-                <p><strong>Industry:</strong> {{ project.industry }}</p>
-                <p><strong>Project type:</strong> {{ project.project_type }}</p>
-                <p><strong>Company:</strong> {{ project.company }}</p>
-                <p class="website-link">
-                    <a href="{{ project.link }}" target="_blank">Link</a>
-                </p>
-                <p style="text-align: justify;"><strong>Description:</strong><br> {{ project.description }}</p>
-            </div>
-        </div>
-    </div> -->
-
-    <div class="px-4 pt-5 my-5 text-center">
+    <div class="px-4 pt-5 my-5 text-left">
         <h1 class="display-4 fw-bold text-body-emphasis">{{ project.title }}</h1>
         <div class="col-lg-6 mx-auto">
             
@@ -37,8 +18,8 @@
             <img src="{{ project.image.url }}" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" loading="lazy">
           </div>
         </div>
-        <div class="col-lg-6 mx-auto" style="margin-top: 30px;">
-            <p style="text-align: justify;"><strong>Description:</strong><br> {{ project.description }}</p>
+        <div class="col-lg-6 mx-auto" style="margin-top: 30px; text-align:justify;">
+            <p><strong>Description:</strong><br> {{ project.description | linebreaks }}</p>
         </div>
     </div>
 
@@ -46,7 +27,5 @@
         <a class="btn btn-primary" href="/#Portfolio">Back</a>
     </div>
 </section>
-
-
 {% endblock %}
 
