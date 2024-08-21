@@ -10,7 +10,7 @@
             <p><strong>Project type:</strong> {{ project.project_type }}</p>
             <p><strong>Company:</strong> {{ project.company }}</p>
             <p class="website-link">
-                <a href="{{ project.link }}" target="_blank">Link</a>
+                <a href="{{ project.link }}" target="_blank">Project Link</a>
             </p>
         </div>
         <div class="" style="">
@@ -20,6 +20,12 @@
         </div>
         <div class="col-lg-6 mx-auto" style="margin-top: 30px; text-align:justify;">
             <p><strong>Description:</strong><br> {{ project.description | linebreaks }}</p>
+        </div>
+        <div class="col-lg-6 mx-auto" style="margin-top: 30px; text-align:justify;">
+            <p><strong>Project role:</strong> {{ project.project_role }}</p>
+        </div>
+        <div class="col-lg-6 mx-auto" style="margin-top: 30px; text-align:justify;">
+            <p><strong>Role responsability:</strong><br> {{ project.role_description | linebreaks }}</p>
         </div>
     </div>
 

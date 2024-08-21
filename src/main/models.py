@@ -53,6 +53,8 @@ class Projects(models.Model):
     project_type = models.CharField(max_length=20, choices=PROJECT_TYPES, default='Other')
     industry = models.CharField(max_length=30, choices=INDUSTRIES, default='Other')
     link = models.URLField()
+    project_role = models.CharField(max_length=100, default='N/A')
+    role_description = models.TextField(default='N/A')
 
     def __str__(self):
         return self.title
