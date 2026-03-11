@@ -5,8 +5,8 @@ from django.shortcuts import redirect
 # Create your views here.
 
 def home_page(request):
-    # Retrieve all certificates from the database
-    certificates = Certificates.objects.all()
+    # Retrieve all certificates from the database, sorted alphabetically by file name
+    certificates = Certificates.objects.all().order_by('pdf_file')
     # Retrieve all projects from the database
     projects = Projects.objects.all()
     # Retrieve all testimonials from the database
@@ -16,8 +16,8 @@ def home_page(request):
     return render(request, "HomePage/main.html", context)
 
 def cert_galery(request):
-    # Retrieve all certificates from the database
-    certificates = Certificates.objects.all()
+    # Retrieve all certificates from the database, sorted alphabetically by file name
+    certificates = Certificates.objects.all().order_by('pdf_file')
     # Pass the certificates to the template context
     context = {'certificates': certificates}
     return render(request, "HomePage/galery_cert.html", context)
