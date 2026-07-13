@@ -1,0 +1,193 @@
+/* Styeing of the navbar */
+#logo-img{
+    align-content: left;
+    margin-left: 10px;
+    border-style:solid;
+    border-color: black;
+    border-radius: 25px;
+  }
+
+
+/* Styleing general */
+
+
+
+/* Styleing of the hero section */
+
+
+/* Styleing of the social links in hero section */
+.social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+  
+}
+
+.social-links a:hover {
+  background-color: #555;
+}
+
+.social-links .linkedin {
+  background-color: #0077B5;
+}
+
+.social-links .instagram {
+  background-color: #E4405F;
+}
+
+.social-links .github {
+  background-color: #333;
+}
+header{
+  background-color: white;
+}
+/* Styleing the about-me section */
+#About-me {
+  padding-bottom: 20px;
+}
+
+#grid-div {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr auto;
+  grid-gap: 10px;
+  justify-items: center;
+}
+#about-div {
+  width: 100%;
+}
+.roadmap {
+  grid-column: 1 / span 2;
+}
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+#profile-img{
+  border-radius: 20px;
+  border: 1px solid black;
+}
+#text {
+  text-align: justify;
+}
+/* styleing portfolio section*/
+#Portfolio {
+  padding-bottom: 20px;
+}
+
+/* styleing certification section*/
+#Certificates {
+  padding-bottom: 20px;
+}
+#cert {
+  width: 100%;
+  height: 100%;
+  
+}
+
+#button-div {
+  margin-top: 20px;
+}
+/* Styleing cert_galery page*/
+#link {
+  padding: 5px;
+}
+
+/* Styleing testimonials section*/
+
+.carousel-control-next {
+  justify-content: left;
+  width: 5%;
+}
+.carousel-control-prev {
+  justify-content: right;
+  width: 5%;
+}
+.carousel-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+}
+.carousel-img {
+  border-radius: 100px;
+  border: 1px solid black;
+}
+.text-format {
+  text-align: center;
+}
+.carousel-inner {
+  border-radius: 10px;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #007bff;
+}
+
+/*Styleing contact section*/
+.map-div{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+.google-map {
+  border-radius: 20px;
+}
+.mail-btn {
+  margin-bottom: 20px;
+}
+/*Styleing footer section*/
+#Footer {
+  display: flex;
+  flex-direction: row;
+  
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/*div {
+  border: 1px solid black;
+}*/
+body {
+  text-align: center;
+}
+h1 {
+  margin: 20px;
+}
+/*Media styles*/
+@media (max-width: 800px) {
+  #grid-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  #img-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
