@@ -9,8 +9,8 @@
 **/*.pyd
 
 # Local database
-db.sqlite3
-src/db.sqlite3
+# db.sqlite3
+# src/db.sqlite3
 
 # Local settings / sensitive files
 .env
