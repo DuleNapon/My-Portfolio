@@ -1,0 +1,1352 @@
+[
+    {
+        "model": "auth.user",
+        "fields": {
+            "password": "pbkdf2_sha256$720000$keFZY4pQPhvfvC0T4si0F1$amtYye8Hd5Uv2cw7LqCiHgxPtG1DvPh+4KfefGgLrdo=",
+            "last_login": "2026-03-08T14:19:40.986Z",
+            "is_superuser": true,
+            "username": "shumy",
+            "first_name": "",
+            "last_name": "",
+            "email": "dusanvlajkovac@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-04-03T11:46:35.151Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "1d9kbw3yagyeys9dhn5bqxovusk242d5",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSE8RqAu3fcbyDADUjU0Ke3K-O_apAvd3nPOfYmI21rj1vMSJxYXocXpd0tIj9x2wHdst1nS3NZlSnJX5EG7HGfOz-vh_h1U7PVbuzIEg9olsMEjW0bjbcpEwIPXHiwAqHQGxwpBoyOtyCAHKEoRFiPeH9dsN7M:1rxSya:2aYBdX8dX9OMJ5whfSla6k3o6dMJMr9uYMUBKCcgtO8",
+            "expire_date": "2024-05-02T14:43:00.951Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "gr56nvz8fjza7toojk1m1bycj1xa5tqi",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSE8RqAu3fcbyDADUjU0Ke3K-O_apAvd3nPOfYmI21rj1vMSJxYXocXpd0tIj9x2wHdst1nS3NZlSnJX5EG7HGfOz-vh_h1U7PVbuzIEg9olsMEjW0bjbcpEwIPXHiwAqHQGxwpBoyOtyCAHKEoRFiPeH9dsN7M:1ruXCH:dWnXx7K6fqaO4mFWoN_iy7jd0UY4E5Viy8b99mphYk4",
+            "expire_date": "2024-04-24T12:37:01.165Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "gwnx2ds3k2bs9b5bjo3nja021x3z53m7",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSE8RqAu3fcbyDADUjU0Ke3K-O_apAvd3nPOfYmI21rj1vMSJxYXocXpd0tIj9x2wHdst1nS3NZlSnJX5EG7HGfOz-vh_h1U7PVbuzIEg9olsMEjW0bjbcpEwIPXHiwAqHQGxwpBoyOtyCAHKEoRFiPeH9dsN7M:1rvcoY:e4PT-8-eSCToahm9ebJSjKskhDArKVSrQOCdg3l5YCE",
+            "expire_date": "2024-04-27T12:49:02.489Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "jwlixmx4fxvdekq59x52q7h4oexk0p0i",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSE8RqAu3fcbyDADUjU0Ke3K-O_apAvd3nPOfYmI21rj1vMSJxYXocXpd0tIj9x2wHdst1nS3NZlSnJX5EG7HGfOz-vh_h1U7PVbuzIEg9olsMEjW0bjbcpEwIPXHiwAqHQGxwpBoyOtyCAHKEoRFiPeH9dsN7M:1rrz5A:uL0u3JDjb5jYylzs77xKk_R_Jlh7eFLQTh0BBhDRSIs",
+            "expire_date": "2024-04-17T11:47:08.273Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "nclgj34cplzv2235589f9165edmvlgal",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSE8RqAu3fcbyDADUjU0Ke3K-O_apAvd3nPOfYmI21rj1vMSJxYXocXpd0tIj9x2wHdst1nS3NZlSnJX5EG7HGfOz-vh_h1U7PVbuzIEg9olsMEjW0bjbcpEwIPXHiwAqHQGxwpBoyOtyCAHKEoRFiPeH9dsN7M:1sewso:w2ZWpYfimADWMHtCkA8bpm9nRDHA_DDiKl3QiZS4W54",
+            "expire_date": "2024-08-30T13:20:46.847Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "sucxs8ooyzbwl6ge4z7h6l6fp7mhgqmj",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSE8RqAu3fcbyDADUjU0Ke3K-O_apAvd3nPOfYmI21rj1vMSJxYXocXpd0tIj9x2wHdst1nS3NZlSnJX5EG7HGfOz-vh_h1U7PVbuzIEg9olsMEjW0bjbcpEwIPXHiwAqHQGxwpBoyOtyCAHKEoRFiPeH9dsN7M:1vzEyr:Me50msOYg82FAQe9RArucIsWnYX2dLeDOtwD2ViqFx4",
+            "expire_date": "2026-03-22T14:19:41.030Z"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 1,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/Google_-_Crash_course_on_Python.pdf",
+            "jpg_file": "media/certificates/jpg/Google_-_Crash_course_on_Python_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 2,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/Google_-_Introduction_to_Git_and_GitHub.pdf",
+            "jpg_file": "media/certificates/jpg/Google_-_Introduction_to_Git_and_GitHub_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 3,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/Google_-_Troubleshooting_and_Debugging_Techniques.pdf",
+            "jpg_file": "media/certificates/jpg/Google_-_Troubleshooting_and_Debugging_Techniques_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 4,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/Google_-_Using_Python_to_Interact_with_the_Operating_System.pdf",
+            "jpg_file": "media/certificates/jpg/Google_-_Using_Python_to_Interact_with_the_Operating_System_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 5,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/Hexagon_metrology_-_PC-DMIS_Pro_and_Operating_with_CMM.pdf",
+            "jpg_file": "media/certificates/jpg/Hexagon_metrology_-_PC-DMIS_Pro_and_Operating_with_CMM_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 6,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/LinkedIn_Learing_-_Become_a_Project_Manager.pdf",
+            "jpg_file": "media/certificates/jpg/LinkedIn_Learing_-_Become_a_Project_Manager_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 7,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/LinkedIn_Learing_-_Becoming_a_Six_Sigma_Green_Belt.pdf",
+            "jpg_file": "media/certificates/jpg/LinkedIn_Learing_-_Becoming_a_Six_Sigma_Green_Belt_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 8,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/Mendix_-_Rapid_Developer_Course.pdf",
+            "jpg_file": "media/certificates/jpg/Mendix_-_Rapid_Developer_Course_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 9,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/PMI_-_Project_Management_for_Beginners.pdf",
+            "jpg_file": "media/certificates/jpg/PMI_-_Project_Management_for_Beginners_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 10,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/PMI_-_The_Basics_of_Scrum.pdf",
+            "jpg_file": "media/certificates/jpg/PMI_-_The_Basics_of_Scrum_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 11,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/QCDS_-_Analiza_i_optimizacija_zaliha_-_ABC_XYZ_S.No._2023-592.pdf",
+            "jpg_file": "media/certificates/jpg/QCDS_-_Analiza_i_optimizacija_zaliha_-_ABC_XYZ_S.No._2023-592_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 12,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/QCDS_-_Cost_of_Quality_COQ_S.No._2023-766.pdf",
+            "jpg_file": "media/certificates/jpg/QCDS_-_Cost_of_Quality_COQ_S.No._2023-766_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 13,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/QCDS_-_Kanban_i_interna_logistika_S.No._2023-688.pdf",
+            "jpg_file": "media/certificates/jpg/QCDS_-_Kanban_i_interna_logistika_S.No._2023-688_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 14,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/QCDS_-_Lean_Six_Sigma_S.No._2023-836.pdf",
+            "jpg_file": "media/certificates/jpg/QCDS_-_Lean_Six_Sigma_S.No._2023-836_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 15,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/QCDS_-_VSM__Value_Stream_Mapping_S.No._2023-514.pdf",
+            "jpg_file": "media/certificates/jpg/QCDS_-_VSM__Value_Stream_Mapping_S.No._2023-514_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 16,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/Siemens_-_8D_and_CAPA.pdf",
+            "jpg_file": "media/certificates/jpg/Siemens_-_8D_and_CAPA_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 17,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/Siemens_-_Fishbone_method.pdf",
+            "jpg_file": "media/certificates/jpg/Siemens_-_Fishbone_method_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 18,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/Siemens_-_Learning_from_mistakes_I.pdf",
+            "jpg_file": "media/certificates/jpg/Siemens_-_Learning_from_mistakes_I_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 19,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/Siemens_-_Learning_from_mistakes_II.pdf",
+            "jpg_file": "media/certificates/jpg/Siemens_-_Learning_from_mistakes_II_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 20,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/Siemens-_5_Why.pdf",
+            "jpg_file": "media/certificates/jpg/Siemens-_5_Why_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 21,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/SoloLearn_-_SQL.pdf",
+            "jpg_file": "media/certificates/jpg/SoloLearn_-_SQL_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 23,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/QCDS_-_8D_-_Strukturno_rešavanje_problema_nHJfhlG.pdf",
+            "jpg_file": "media/certificates/jpg/QCDS_-_8D_-_Strukturno_rešavanje_problema_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.certificates",
+        "pk": 24,
+        "fields": {
+            "pdf_file": "media/certificates/pdf/QCDS_-_Optimizacija_pakovanja_i_PPWR_S.No._2026-150.pdf",
+            "jpg_file": "media/certificates/jpg/QCDS_-_Optimizacija_pakovanja_i_PPWR_S.No._2026-150_page_1.jpg"
+        }
+    },
+    {
+        "model": "main.projects",
+        "pk": 1,
+        "fields": {
+            "title": "AVENIO Bremen",
+            "description": "The AVENIO Bremen Project is a significant collaboration between Siemens and the German operator Bremer Straßenbahn AG (BSAG). The project began when BSAG ordered a new tram fleet for the Free Hanseatic City of Bremen from Siemens. This order consisted of 67 Avenio trams and included an option for up to 17 additional trams. The delivery of the four-section trains to Bremen’s tram network was scheduled to begin in the spring of 2019.\r\n\r\nLater, BSAG decided to order an additional ten Avenio trams from Siemens, exercising an option in the contract signed in June 2017. This increased the total number of Siemens trams in the Hanseatic city’s fleet to 77.\r\n\r\nThe Avenio trams are easily identifiable as a new member of the BSAG fleet. They feature the company’s signature bright red paint and references to the linear design and the BSAG logo used on earlier trams. The interior design of the Avenio trams is also noteworthy. It allows speedy boarding and alighting, which shortens stops at the stations. Large windows and LED lighting provide pleasant lighting conditions. Riders with reduced mobility in wheelchairs or with walkers have spacious areas available at the entrances with convenient seating or room for parking. An electric lift at the second door operates a complete section of the floor.\r\n\r\nThis project represents a significant milestone for mass transit in Bremen and the surrounding region.",
+            "company": "Siemens Mobility d.o.o.",
+            "image": "media/project_images/AVENIO_Bremen_Fra7NJO.jpg",
+            "project_type": "Waterfall",
+            "industry": "Rolling stock",
+            "link": "https://press.siemens.com/global/en/feature/new-tram-fleet-bremen-comes-siemens",
+            "project_role": "Quality Manager In Project (QMIP)",
+            "role_description": "- Leads and / or coordinates the entire project quality team (internal / external) assigned organizational units.\r\n- Ensures multifunctional cooperation with procurement, logistics, research and development, engineering, production, service and relevant suppliers in order to achieve quality business goals.\r\n- Adapts and provides a project-specific management system, including project documentation, regulations, methods and IT tools using risk-based approach.\r\n- Provides professional non-compliance (NC) management.\r\n- Train project team members with agile / lean methods or even acts as a SCRUM master in agile projects.\r\n- Ensures the application of quality improvement methods and improves process performance management (e.g. 8D, RCA, FMEA).\r\n- Selects innovative digital solutions to improve project quality\r\n- Encourages lessons learned through projects.\r\n- Ensures the implementation and improvement of project quality reporting as an integrated part of project reporting.\r\n- Contributes to project planning to ensure that they are taken into account considering project-specific quality requirements, starting from the sales stage.\r\n- Initiates trainings for project employees in terms of quality (e.g. Methods and processes).\r\n- Develops, controls and ensures the implementation of the quality plan (including quality assurance measures such as inspection / test / validation / ...) for a project derived from an existing management quality system agreed with own organization, customer, partners and suppliers."
+        }
+    },
+    {
+        "model": "main.projects",
+        "pk": 2,
+        "fields": {
+            "title": "AVENIO Copenhagen",
+            "description": "The AVENIO Copenhagen Project is a significant collaboration between Siemens and the Danish urban transport development company, Greater Copenhagen Light Rail I/S. In a consortium with the general infrastructure contractor Per Aarsleff A/S, Siemens received an order to build a light rail system in Copenhagen, Denmark.\r\n\r\nThe contract includes 27 four-car Avenio trams, rail electrification, signalling, communication, workshop equipment, overall project management, and system integration. The project is being implemented as a turnkey solution. In addition, the contract includes maintenance services for 15 years. The commissioning of the system is planned for 2024.\r\n\r\nThe tram line will consist of 28 kilometers of double track with 29 stations, running between Lyngby, a northern suburb of Copenhagen, and Ishøj, a suburb south of the city. Each Avenio tram has a seating capacity of 64 and space for 199 standees. The line will run along the Ring 3 highway and replace bus service in an effort to decarbonize public transport as part of the urban development plan developed in 1947, known as the Finger Plan.\r\n\r\nThe purpose behind building a light rail system in Greater Copenhagen is to develop the city’s suburbs and connect the “fingers” to the capital and the 11 municipalities between them. This project will strengthen green transportation in Copenhagen and will mark a significant improvement in the city’s infrastructure. It will play an important role in improving air quality and reducing traffic jams and congestion in the capital1. Furthermore, it will support Copenhagen’s goal to become the world’s first carbon-neutral capital city by 2025.",
+            "company": "Siemens Mobility d.o.o.",
+            "image": "media/project_images/AVENIO_Copenhagen_xPbiWmw.png",
+            "project_type": "Waterfall",
+            "industry": "Rolling stock",
+            "link": "https://press.siemens.com/global/en/feature/siemens-build-light-rail-system-greater-copenhagen",
+            "project_role": "Quality Manager In Project (QMIP)",
+            "role_description": "- Leads and / or coordinates the entire project quality team (internal / external) assigned organizational units.\r\n- Ensures multifunctional cooperation with procurement, logistics, research and development, engineering, production, service and relevant suppliers in order to achieve quality business goals.\r\n- Adapts and provides a project-specific management system, including project documentation, regulations, methods and IT tools using risk-based approach.\r\n- Provides professional non-compliance (NC) management.\r\n- Train project team members with agile / lean methods or even acts as a SCRUM master in agile projects.\r\n- Ensures the application of quality improvement methods and improves process performance management (e.g. 8D, RCA, FMEA).\r\n- Selects innovative digital solutions to improve project quality\r\n- Encourages lessons learned through projects.\r\n- Ensures the implementation and improvement of project quality reporting as an integrated part of project reporting.\r\n- Contributes to project planning to ensure that they are taken into account considering project-specific quality requirements, starting from the sales stage.\r\n- Initiates trainings for project employees in terms of quality (e.g. Methods and processes).\r\n- Develops, controls and ensures the implementation of the quality plan (including quality assurance measures such as inspection / test / validation / ...) for a project derived from an existing management quality system agreed with own organization, customer, partners and suppliers."
+        }
+    },
+    {
+        "model": "main.projects",
+        "pk": 3,
+        "fields": {
+            "title": "Stellantis J4U (Jeep COMPASS)",
+            "description": "The Jeep COMPAS Project is a significant initiative by Stellantis for the Jeep brand. The project revolves around the development and production of the new Jeep Compass model. The new Compass is a completely new model, with major changes to those features and contents that are mostly appreciated by European customers: style, technology, safety, sustainability, and functionality.\r\n\r\nThis project marked the first Jeep launch in Europe for the Stellantis Group, and the new model is produced in Melfi, Italy. In Europe, Compass accounts for more than 40% of Jeep’s sales, and today one in four Compass vehicles sold is a plug-in hybrid model. The new Compass model offers a range of engines with lower CO2 emissions and fuel consumption, including the 4xe variants with plug-in hybrid technology.\r\n\r\nThe new Compass exterior and interior represent an expression of formal concepts, which will be found in upcoming Jeep models. It is more modern, technological, sophisticated, and with a stronger European flavor, while maintaining Jeep authenticity. The new model also debuts the Uconnect™ 5, the most advanced infotainment system ever in a Jeep vehicle, and Highway Assist, a driver assistance system for level 2 (L2) autonomous driving.\r\n\r\nThe new Compass targets “pragmatic dreamers”, rational customers who give importance to value and specs, but also look for a car able to answer to their emotional needs of freedom and adventure. By choosing the New Compass, owners receive access to the benefits of Jeep Wave, the brand’s new loyalty and customer care program.\r\n\r\nThe Jeep COMPAS Project is a significant step in the importance of the Jeep brand around the world and especially in Europe. It has been developed to speak a more European language, courtesy of the enhanced quality of the finishes and its advanced onboard technology1. It also introduces major new features that take it to an even higher level in terms of design, safety, technology, and functionality.",
+            "company": "SEGULA Technology",
+            "image": "media/project_images/Stellantis.jpg",
+            "project_type": "Agile",
+            "industry": "Automotive",
+            "link": "https://www.media.stellantis.com/em-en/jeep/jeep-compass",
+            "project_role": "Engineering Quality Leader (EQL) / Monitoring Method Preparator (MMP)",
+            "role_description": "- APR (Assembly Project Report) – fill in and follow indicators, validate indicators with Assembly manager, present results in power point if necessary\r\n- PQO (Plan Qualite Operationnelle) creation / agreement with Assembly manager\r\n- PFMEA Risks Analysis / Actions Plan followed\r\n- TRACEABILITY QUALIFICATION OF ASSEMBLY PROCESS\r\n- SCREWING QUALIFICATION OF ASSEMBLY PROCESS\r\n- QUALIFICATIONS OF RISK ASSEMBLY PROCESS\r\n- QUALITY LESSON LEARNED\r\n- ASSEMBLY SECURITY FOLDER follow up\r\n- PMC - Conformity Master Plan\r\n- Blocking park monitoring, important quality information exchange btw EQL’s from other projects\r\n- Maintain a good communication within the project team as well as with the plant’s staff members all along the project\r\n- Be a driving force in the continuous improvement process."
+        }
+    },
+    {
+        "model": "main.testimonials",
+        "pk": 1,
+        "fields": {
+            "profile_picture": "media/testimonials/Milan_Dragutinovic.jpg",
+            "full_name": "Milan Dragutinovic",
+            "current_title": "Manufacturing Engineer",
+            "company": "SMP Automotive Global",
+            "contact": "https://www.linkedin.com/in/milan-dragutinovic-603622156/",
+            "testimonial": "\"Working with Dusan has been an absolute pleasure. His professionalism, attention to detail, and dedication to delivering outstanding results are truly commendable.\""
+        }
+    },
+    {
+        "model": "main.testimonials",
+        "pk": 2,
+        "fields": {
+            "profile_picture": "media/testimonials/Nikola_Stamenkovic.jpg",
+            "full_name": "Nikola Stamenkovic",
+            "current_title": "Senior Quality Engineer",
+            "company": "Yanfeng",
+            "contact": "https://www.linkedin.com/in/nikola-stamenkovic-44854614b/",
+            "testimonial": "\"I highly recommend Dusan for his exceptional skills and expertise. His ability to think outside the box and find innovative solutions has greatly contributed to the success of our project.\""
+        }
+    },
+    {
+        "model": "main.testimonials",
+        "pk": 3,
+        "fields": {
+            "profile_picture": "media/testimonials/Nikola_Srećković.jpg",
+            "full_name": "Nikola Sreckovic",
+            "current_title": "Engineering Quality Leader",
+            "company": "SEGULA Technology",
+            "contact": "https://www.linkedin.com/in/nikola-sreckovic-62b5aa209/",
+            "testimonial": "\"It is a privilege to collaborate with Dusan. His unwavering commitment to excellence, coupled with clear communication and reliability, made him an invaluable asset to our team.\""
+        }
+    },
+    {
+        "model": "main.testimonials",
+        "pk": 4,
+        "fields": {
+            "profile_picture": "media/testimonials/Dragan_Milosevic.jpg",
+            "full_name": "Dragan Milosevic",
+            "current_title": "Engineering Quality Leader",
+            "company": "SEGULA Technology",
+            "contact": "https://www.linkedin.com/in/dragan-milosevic-102a52b7/",
+            "testimonial": "\"I cannot speak highly enough of Dusan. His deep knowledge, reliability, and friendly demeanour made the entire process enjoyable and stress-free.\""
+        }
+    },
+    {
+        "model": "main.testimonials",
+        "pk": 5,
+        "fields": {
+            "profile_picture": "media/testimonials/Jovana_Vlajkovac.jpg",
+            "full_name": "Jovana Vlajkovac",
+            "current_title": "Kindergarten Teacher",
+            "company": "PU AKVICA",
+            "contact": null,
+            "testimonial": "\"Dusan is a wonderful husband and a father, but I would never work with him, he is too much of a perfectionist.\""
+        }
+    },
+    {
+        "model": "main.testimonials",
+        "pk": 6,
+        "fields": {
+            "profile_picture": "media/testimonials/Goran_Bojovic.jpeg",
+            "full_name": "Goran Bojovic",
+            "current_title": "Method Engineer",
+            "company": "HSL/FEKA Automotive",
+            "contact": "https://www.linkedin.com/in/goran-bojovic-a2526264/",
+            "testimonial": "Dusan is investing a lot of energy in order to make a job easier."
+        }
+    },
+    {
+        "model": "main.testimonials",
+        "pk": 7,
+        "fields": {
+            "profile_picture": "media/testimonials/Andreja_Milovanovic.jpeg",
+            "full_name": "Andreja Milovanovic",
+            "current_title": "Project Operation Manager",
+            "company": "HSL/FEKA Automotive",
+            "contact": "https://www.linkedin.com/in/goran-bojovic-a2526264/",
+            "testimonial": "Dusan always do tasks correctly from the first time, you just need to tell him twice to do it."
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2024-04-10T10:07:21.051Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "1",
+            "object_repr": "Google_-_Crash_course_on_Python",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2024-04-10T10:07:44.937Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "2",
+            "object_repr": "Google_-_Introduction_to_Git_and_GitHub",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2024-04-10T10:07:57.235Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "3",
+            "object_repr": "Google_-_Troubleshooting_and_Debugging_Techniques",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2024-04-10T10:08:13.483Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "4",
+            "object_repr": "Google_-_Using_Python_to_Interact_with_the_Operating_System",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2024-04-10T12:37:46.790Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "5",
+            "object_repr": "Hexagon metrology - PC-DMIS Pro and Operating with CMM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2024-04-10T12:38:00.216Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "6",
+            "object_repr": "LinkedIn Learing - Become a Project Manager",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2024-04-10T12:38:17.416Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "7",
+            "object_repr": "LinkedIn Learing - Becoming a Six Sigma Green Belt",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2024-04-10T12:38:31.097Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "8",
+            "object_repr": "Mendix - Rapid Developer Course",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2024-04-10T12:38:46.521Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "9",
+            "object_repr": "PMI - Project Management for Beginners",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2024-04-10T12:38:58.750Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "10",
+            "object_repr": "PMI - The Basics of Scrum",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2024-04-10T12:39:10.700Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "11",
+            "object_repr": "QCDS - Analiza i optimizacija zaliha - ABC XYZ S",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2024-04-10T12:39:26.499Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "12",
+            "object_repr": "QCDS - Cost of Quality COQ S",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2024-04-10T12:39:41.099Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "13",
+            "object_repr": "QCDS - Kanban i interna logistika S",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2024-04-10T12:40:03.044Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "14",
+            "object_repr": "QCDS - Lean Six Sigma S",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2024-04-10T12:40:16.254Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "15",
+            "object_repr": "QCDS - VSM  Value Stream Mapping S",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2024-04-10T12:40:32.079Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "16",
+            "object_repr": "Siemens - 8D and CAPA",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2024-04-10T12:40:43.213Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "17",
+            "object_repr": "Siemens - Fishbone method",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2024-04-10T12:40:58.105Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "18",
+            "object_repr": "Siemens - Learning from mistakes I",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2024-04-10T12:41:09.274Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "19",
+            "object_repr": "Siemens - Learning from mistakes II",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2024-04-10T12:41:20.758Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "20",
+            "object_repr": "Siemens- 5 Why",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2024-04-10T12:41:33.762Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "21",
+            "object_repr": "SoloLearn - SQL",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2024-04-14T12:19:37.942Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "1",
+            "object_repr": "AVENIO Bremen",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2024-04-15T17:45:30.922Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "2",
+            "object_repr": "AVENIO Copenhagen",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2024-04-15T17:55:07.150Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "1",
+            "object_repr": "AVENIO Bremen",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2024-04-15T17:55:32.156Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "1",
+            "object_repr": "AVENIO Bremen",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2024-04-15T17:58:06.712Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "1",
+            "object_repr": "AVENIO Bremen",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2024-04-16T08:58:39.134Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "2",
+            "object_repr": "AVENIO Copenhagen",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2024-04-16T08:58:46.602Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "1",
+            "object_repr": "AVENIO Bremen",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2024-04-17T10:18:12.095Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "3",
+            "object_repr": "Stellantis J4U (Jeep COMPASS)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2024-04-17T12:19:11.046Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "3",
+            "object_repr": "Stellantis J4U (Jeep COMPASS)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2024-04-17T12:19:42.928Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "3",
+            "object_repr": "Stellantis J4U (Jeep COMPASS)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Link\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2024-04-17T12:38:10.808Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "3",
+            "object_repr": "Stellantis J4U (Jeep COMPASS)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Project type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2024-04-17T14:49:57.080Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "testimonials"
+            ],
+            "object_id": "1",
+            "object_repr": "Milan Dragutinovic",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2024-04-17T14:54:29.178Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "testimonials"
+            ],
+            "object_id": "2",
+            "object_repr": "Nikola Stamenkovic",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2024-04-17T14:55:46.800Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "testimonials"
+            ],
+            "object_id": "3",
+            "object_repr": "Nikola Sreckovic",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2024-04-17T14:57:15.131Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "testimonials"
+            ],
+            "object_id": "4",
+            "object_repr": "Dragan Milosevic",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2024-04-17T14:59:25.218Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "testimonials"
+            ],
+            "object_id": "5",
+            "object_repr": "Jovana Vlajkovac",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2024-04-18T10:02:08.872Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "1",
+            "object_repr": "AVENIO Bremen",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2024-04-18T10:28:13.208Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "1",
+            "object_repr": "AVENIO Bremen",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2024-04-18T10:28:55.054Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "1",
+            "object_repr": "AVENIO Bremen",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2024-04-18T10:29:27.553Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "1",
+            "object_repr": "AVENIO Bremen",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2024-04-18T12:15:45.426Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "1",
+            "object_repr": "AVENIO Bremen",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2024-04-18T13:56:39.046Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "2",
+            "object_repr": "AVENIO Copenhagen",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2024-04-18T14:44:43.032Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "3",
+            "object_repr": "Stellantis J4U (Jeep COMPASS)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2024-08-21T06:59:25.939Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "3",
+            "object_repr": "Stellantis J4U (Jeep COMPASS)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Project role\", \"Role description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2024-08-21T07:00:52.086Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "3",
+            "object_repr": "Stellantis J4U (Jeep COMPASS)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Project role\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2024-08-21T07:02:40.391Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "2",
+            "object_repr": "AVENIO Copenhagen",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Project role\", \"Role description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2024-08-21T07:03:01.709Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "projects"
+            ],
+            "object_id": "1",
+            "object_repr": "AVENIO Bremen",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Project role\", \"Role description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 49,
+        "fields": {
+            "action_time": "2026-03-08T14:40:59.170Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "22",
+            "object_repr": "QCDS - 8D - Strukturno rešavanje problema",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 50,
+        "fields": {
+            "action_time": "2026-03-11T07:12:30.935Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "testimonials"
+            ],
+            "object_id": "6",
+            "object_repr": "Goran Bojovic",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 51,
+        "fields": {
+            "action_time": "2026-03-11T07:18:01.324Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "testimonials"
+            ],
+            "object_id": "7",
+            "object_repr": "Andreja Milovanovic",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 52,
+        "fields": {
+            "action_time": "2026-03-11T14:20:18.474Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "22",
+            "object_repr": "QCDS - 8D - Strukturno rešavanje problema",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 53,
+        "fields": {
+            "action_time": "2026-03-11T14:20:54.927Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "23",
+            "object_repr": "QCDS - 8D - Strukturno rešavanje problema nHJfhlG",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 54,
+        "fields": {
+            "action_time": "2026-03-11T14:35:06.095Z",
+            "user": [
+                "shumy"
+            ],
+            "content_type": [
+                "main",
+                "certificates"
+            ],
+            "object_id": "24",
+            "object_repr": "QCDS - Optimizacija pakovanja i PPWR S",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    }
+]
