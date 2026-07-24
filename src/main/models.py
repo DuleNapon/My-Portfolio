@@ -69,3 +69,11 @@ class Testimonials(models.Model):
 
     def __str__(self):
         return self.full_name
+
+class Roadmap(models.Model):
+    title = models.CharField(max_length=100, default="My Roadmap")
+    horizontal_image = models.ImageField(upload_to='media/roadmap/')
+    vertical_image = models.ImageField(upload_to='media/roadmap/')
+
+    def __str__(self):
+        return self.title

@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Certificates, Projects, Testimonials
+from .models import Certificates, Projects, Testimonials, Roadmap
 
 @admin.register(Certificates)
 class CertificatesAdmin(admin.ModelAdmin):
@@ -14,3 +14,7 @@ class ProjectsAdmin(admin.ModelAdmin):
 @admin.register(Testimonials)
 class TestimonialsAdmin(admin.ModelAdmin):
     list_display = ['profile_picture', 'full_name', 'current_title', 'company', 'contact', 'testimonial']
+
+@admin.register(Roadmap)
+class RoadmapAdmin(admin.ModelAdmin):
+    list_display = ['title', 'horizontal_image', 'vertical_image']
