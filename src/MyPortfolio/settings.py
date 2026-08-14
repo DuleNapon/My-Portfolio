@@ -30,12 +30,22 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-p7*yt_^*w1(21!h122svp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
+ALLOWED_HOSTS = [
+    host.strip() for host in os.environ.get(
+        'ALLOWED_HOSTS',
+        'dusan-vlajkovac-portfolio.com,www.dusan-vlajkovac-portfolio.com,dusan-vlajkovac-portfolio-783441012038.europe-west4.run.app,localhost,127.0.0.1,*'
+    ).split(',') if host.strip()
+]
 
-CSRF_TRUSTED_ORIGINS = os.environ.get(
-    'CSRF_TRUSTED_ORIGINS',
-    'https://dusan-vlajkovac-portfolio-783441012038.europe-west4.run.app,http://localhost:8000,http://127.0.0.1:8000'
-).split(',')
+CSRF_TRUSTED_ORIGINS = [
+    origin.strip() for origin in os.environ.get(
+        'CSRF_TRUSTED_ORIGINS',
+        'https://dusan-vlajkovac-portfolio.com,https://www.dusan-vlajkovac-portfolio.com,https://dusan-vlajkovac-portfolio-783441012038.europe-west4.run.app,http://localhost:8000,http://127.0.0.1:8000'
+    ).split(',') if origin.strip()
+]
+
+# Tell Django to trust the X-Forwarded-Proto header set by Cloud Run / reverse proxies for HTTPS
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 
 # Application definition
